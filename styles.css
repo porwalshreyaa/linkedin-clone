@@ -1,0 +1,48 @@
+* {
+  background-color: lightgrey;
+  margin: 0;
+}
+header {
+  position: absolute;
+  display: inline;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  height: 10.5vh;
+  width: 100hw;
+  overflow: hidden;
+  z-index: 5;
+  background-color: white;
+}
+img {
+  margin-left: 1%;
+  margin-top: 0.5%;
+  width: 3.4%;
+  position: fixed;
+  background-color: white;
+}
+div {
+  background-color: white;
+}
+
+header div div.search input {
+  margin: 0.5%;
+  margin-left: 5.2%;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  width: 30%;
+  height: 6.5vh;
+  border-radius: 5px;
+  padding: 0.3%;
+  text-align: left;
+  font-size: 20px;
+  color: grey;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-wieght: 400;
+}
+header div div.search i {
+  z-index: 7;
+  height: 8vh;
+}
